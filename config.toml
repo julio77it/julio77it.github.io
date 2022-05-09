@@ -1,6 +1,7 @@
 baseURL = 'https://julio77it.github.io/'
 languageCode = 'en-us'
 title = 'Sketchbook'
+description = 'not a portfolio, just a sketchbook'
 theme = "ananke"
 
 [related]
