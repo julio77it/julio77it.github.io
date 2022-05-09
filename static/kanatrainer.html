@@ -35,6 +35,8 @@
     function verify() {
         expected = document.getElementById("expected").value 
         got = document.getElementById("got").value    
+        if (got.length == 0)
+            return;
         if (expected == got) {
             document.getElementById("result").innerHTML = "Correct ! Well done !";
         } else {
@@ -62,7 +64,7 @@
     <form>
         <table>
             <tr>
-                <th>Choose a kana :</th>
+                <th>Scegli :</th>
                 <td>
                     <select  name="kana" id="kana">
                         <option value="hiragana">Hiragana</option>
@@ -71,19 +73,19 @@
                 </td>
             </tr>
             <tr>
-                <th>Level :</th>
+                <th>difficoltà :</th>
                 <td>
                     <input type="number" id="level" min="1" max="5" value="1">
                 </td>
             </tr>
             <tr>
-                <th>Length :</th>
+                <th>lunghezza :</th>
                 <td>
                     <input type="number" id="length" min="1" max="10" value="3">
                 </td>
             </tr>
             <tr>
-                <th>Read kana chars :</th>
+                <th>Kana :</th>
                 <td>
                     <!--input type="text" id="test" readonly></input-->
                     <span id="test"></span>
@@ -91,7 +93,7 @@
                 </td>
             </tr>
             <tr>
-                <th>Write phonetics :</th>
+                <th>Romanji :</th>
                 <td>
                     <input type="text" id="got"></input>
                 </td>
