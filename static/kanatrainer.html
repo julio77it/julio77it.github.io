@@ -17,7 +17,6 @@
     load('katakana')
 
     function generate(kana, level, length) {
-        console.log(kana, level, length)
         filtered = kanas[kana].filter(function (value) {
             return level >= value['difficulty'];
         });
@@ -68,7 +67,7 @@
                 <td>
                     <select  name="kana" id="kana">
                         <option value="hiragana">Hiragana</option>
-                        <option value="katana">Katakana</option>
+                        <option value="katakana">Katakana</option>
                     </select>             
                 </td>
             </tr>
@@ -95,7 +94,7 @@
             <tr>
                 <th>Romanji :</th>
                 <td>
-                    <input type="text" id="got"></input>
+                    <input type="text" id="got" style="text-transform: lowercase"></input>
                 </td>
             </tr>
             <tr>

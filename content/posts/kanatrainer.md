@@ -17,4 +17,6 @@ Il livello di difficoltà è arbitrariamente deciso da me :
 4. composte con ya yu yo
 5. ulteriori composte (doppie ecc ecc)
 
+N.B: attenzione alle differenze di dimensione dei kana (つ e っ, や e ゃ, ツ e ッ ecc ecc)
+
 {{< include-html "static/kanatrainer.html" >}}
