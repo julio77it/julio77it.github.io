@@ -7,7 +7,6 @@ featured_image: "/kana.jpg"
 ---
 Di recente è scomparso dal web il kanatrainer di dandandin, utile per esercitarsi nella lettura di hiragana e katana.
 Per ovviare a questa mancanza, ho deciso di riprodurne le funzionalità, cercando se possibile di migliorarlo.
-Al momento supporta solo hiragana, il katakana è in sviluppo.
 Il codice e le risorse sono reperibili in [questo progetto](https://github.com/julio77it/jpkana)
 
 Il livello di difficoltà è arbitrariamente deciso da me :
