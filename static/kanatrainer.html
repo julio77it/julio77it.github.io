@@ -33,7 +33,7 @@
     }
     function verify() {
         expected = document.getElementById("expected").value 
-        got = document.getElementById("got").value    
+        got = document.getElementById("got").value.toLowerCase();    
         if (got.length == 0)
             return;
         if (expected == got) {
